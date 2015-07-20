@@ -22,8 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Init files not shared with G2-common
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.g2.rc:root/init.g2.rc \
-    $(LOCAL_PATH)/fstab.g2:root/fstab.g2
+    $(LOCAL_PATH)/init.g2.rc:root/init.g2.rc
 
 # GSM permissions
 PRODUCT_COPY_FILES += \
